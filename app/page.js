@@ -30,8 +30,7 @@ export default function Home() {
         <div className="center">
           <h2 className="h2">Our Vendors</h2>
           <p className="lead">
-            Discover unique collections from four distinguished vendors, each bringing
-            their own expertise and passion to our centennial celebration
+          Explore apparel and jewelry from three vendors, each offering pieces created especially for our centennial celebration.
           </p>
         </div>
 

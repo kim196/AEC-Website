@@ -2,7 +2,7 @@ export default function Vendor1() {
     return (
       <section className="section">
         <div className="container center">
-          <h2 className="h2">Sugar High Sweets</h2>
+          <h2 className="h2">Alpha Epsilon The Road To 100!</h2>
           <p className="lead">
             Official Alpha Epsilon Centennial Collection
           </p>
