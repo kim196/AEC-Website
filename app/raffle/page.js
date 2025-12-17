@@ -45,7 +45,8 @@ export default function Raffle() {
           <div className="raffle-pricing-bar">
             <div className="raffle-pricing-text">
               <h4>Get Your Tickets</h4>
-              <p>Support a great cause while entering to win</p>
+              <p>Support a great cause while entering to win! <br></br>
+                Drawings will be done on February 15th, 2026</p>
             </div>
   
             <div className="raffle-pricing-options">
@@ -60,15 +61,15 @@ export default function Raffle() {
             </div>
           </div>
   
-          {/* Proceeds */}
+          {/* Proceeds --- might delete */}
+          {/* 
           <div className="raffle-proceeds">
             <div className="raffle-line"></div>
             <p>
-              <strong>All proceeds benefit</strong>
-              Virginia State University Alumni Association<br />
-              Baltimore Metro and Trojan Ivy AE Centennial Weekend
+              <strong>All proceeds benefit AE Centennial</strong>
             </p>
           </div>
+        */}
   
           {/* CTA */}
           <div className="raffle-cta">

@@ -7,16 +7,11 @@ export default function Vendor2() {
             Official Alpha Epsilon Boutique Collection
           </p>
   
-          <a
-            className="card-img hero vendor"
+          <a className="card-img hero vendor"
             href="https://lbjgreekdesigns.com/shop?olsPage=t%2Faka-alpha-epsilon-boutique"
             target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/assets/hero-right.jpg"
-              alt="LBJ Greek Designs Collection"
-            />
+            rel="noopener noreferrer" >
+            <img src="/assets/hero-right.jpg" alt="LBJ Greek Designs Collection"/>
             <span className="shop-btn">Shop Now</span>
           </a>
         </div>

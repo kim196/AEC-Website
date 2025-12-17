@@ -16,9 +16,6 @@ export default function RootLayout({ children }) {
       <body>
         <header className="site-header">
           <div className="container header-row">
-            <div className="social">
-              <a href="#" aria-label="Instagram">⌁</a>
-              <a href="#" aria-label="Facebook">f</a>
             </div>
 
             <div className="brand">
@@ -31,11 +28,16 @@ export default function RootLayout({ children }) {
                 <Link href="/vendor2">LBJ Greek Designs</Link>
                 <Link href="/vendor3">AEC Heirloom</Link>
                 <Link href="/raffle">Raffle</Link>
+                <a
+                  href="https://posh.vip/e/trojan-ivy-chapter-celebrates-aes-100th-year-celebration-weekend-1"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  100th Celebration Weekend
+                </a>
               </nav>
             </div>
 
             <div style={{ width: 22 }} />
-          </div>
         </header>
 
         <main className="panel">{children}</main>
