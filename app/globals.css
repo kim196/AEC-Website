@@ -456,3 +456,46 @@ a{ color:inherit; text-decoration:none; }
   .card-img{ height: 240px; }
   .card-img.wide{ height: 260px; }
 }
+
+/*** New CSS for vendor 3 */
+
+
+.vendor-info{
+  max-width: 980px;
+  margin: 0 auto 36px;
+}
+
+.vendor-intro{
+  font-size: 16px;          
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.vendor-description{
+  font-size: 16px;         
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: var(--text);
+  opacity: 0.95;
+}
+
+.vendor-support{
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+.vendor-support a{
+  color: var(--green-dark);
+  font-weight: 600;
+}
+
+.vendor-dates{
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,0,0,.18);
+  font-size: 16px;
+}
